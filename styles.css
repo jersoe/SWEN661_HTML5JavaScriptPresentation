@@ -1,0 +1,26 @@
+body {
+    background-color: gray;
+    margin:0px;
+    padding:0px;
+}
+
+#header {
+    border-style: solid;
+    border-color: red;
+    border-width: 2px;
+    padding:20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    color:white;
+}
+
+#content
+{
+    border-style: solid;
+    border-color: green;
+    border-width: 2px;
+}
+
+.item{
+    font-size: x-small;
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="styles.css">
+    </head>
+    <body>
+        <div id="wrapper">
+            <div id="header">Vehicles Of Interest</div>
+            <div id="content">Lorum Ipsum</div>
+            <div id="1" class="item">I am an item</div>
+            <div id="2" class="item">I am item 2</div>
+            <div id="3" class="item">Number three 3</div>
+        </div>
+
+        <script>
+            class Pet {
+                name;
+                constructor(name){
+                    this.name=name;
+                }
+            }
+
+            class Cat extends Pet{
+                hello(){
+                    alert("Hello, my name is "+this.name+" and I am a cat!")
+                }
+            }
+
+            class Dog extends Pet{
+                hello(){
+                    alert("Hello, my name is "+this.name+" and I am a dog!")
+                }
+            }
+
+
+            c=new Cat("Hank");
+            d=new Dog("Bob");
+
+            c.hello();
+            d.hello();
+
+        </script>
+    </body>
+</html>
